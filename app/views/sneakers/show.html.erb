@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @sneaker.brand %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @sneaker.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @sneaker.year %>
+</p>
+
+<%= link_to 'Edit', edit_sneaker_path(@sneaker) %> |
+<%= link_to 'Back', sneakers_path %>
